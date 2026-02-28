@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="72" viewBox="0 0 320 72" role="img" aria-label="Vortys logo (light)">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2D8CFF"/>
+      <stop offset="100%" stop-color="#38E1FF"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(6,6)">
+    <circle cx="24" cy="30" r="26" fill="none" stroke="url(#g2)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M10 12 L24 48 L38 12" fill="none" stroke="#2D8CFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M2 30 C12 8, 36 8, 46 30" fill="none" stroke="#38E1FF" stroke-width="6" stroke-linecap="round" opacity=".9"/>
+  </g>
+  <g transform="translate(72,18)">
+    <text x="0" y="24" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-weight="800" font-size="28" fill="#0B1020">VORTYS</text>
+    <text x="2" y="50" font-family="Inter, Segoe UI, Roboto, Arial, sans-serif" font-weight="700" font-size="12" fill="#374151">SOLUTION PRIVATE LIMITED</text>
+  </g>
+</svg>
