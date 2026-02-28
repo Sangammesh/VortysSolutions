@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>What We Are — Vortys</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0B1020" />
+  <meta name="description" content="Vortys Solution Private Limited delivers modernization, digitization, AI, application development and managed services." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+  <header class="header" role="banner">
+    <div class="container nav">
+      <a href="index.html" class="brand" aria-label="Vortys Solution Private Limited Home">
+        <img src="assets/logo-dark.svg" alt="Vortys Solution Private Limited logo" class="logo" />
+        <span class="brand-name">Vortys</span>
+      </a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation"/>
+      <label for="nav-toggle" class="hamburger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <nav class="menu" role="navigation" aria-label="Primary">
+        <a href="index.html" class="">Home</a>
+        <a href="about.html" class="active" aria-current="page">What We Are</a>
+        <a href="services.html" class="">Services</a>
+        <a href="technologies.html" class="">Technologies</a>
+        <a href="contact.html" class="">Contact</a>
+        <a href="contact.html" class="btn btn-primary">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>What we are</h1>
+      <p class="muted">A services company focused on modernization, digitization, AI, and reliable engineering.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two-col">
+      <div>
+        <h2>Our mission</h2>
+        <p>We help organizations modernize and scale through cloud, automation, and data—pairing robust architectures with thoughtful execution.</p>
+        <h2>Our values</h2>
+        <ul class="list">
+          <li><strong>Customer focus</strong> — success measured by outcomes.</li>
+          <li><strong>Security & quality</strong> — built-in from day zero.</li>
+          <li><strong>Empathy & ownership</strong> — collaborate, decide, deliver.</li>
+        </ul>
+      </div>
+      <div class="highlight-card">
+        <h3>In numbers</h3>
+        <ul class="kpis">
+          <li><span class="kpi">10+ </span>years collective leadership</li>
+          <li><span class="kpi">30+ </span>experts & partners</li>
+          <li><span class="kpi">Global </span>delivery capability</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="careers" class="section alt">
+    <div class="container two-col">
+      <div>
+        <h2>Careers</h2>
+        <p>Join a team that values curiosity, ownership, and craftsmanship. We offer flexible work, growth paths, and meaningful projects.</p>
+        <ul class="list">
+          <li>Engineering: SharePoint, SPFx/React, .NET, Azure</li>
+          <li>Platforms: Power Platform, Power BI, D365</li>
+          <li>AI & Automation: Agentic AI, RPA</li>
+        </ul>
+      </div>
+      <form class="apply-form" aria-label="Quick application">
+        <label><span>Name</span><input type="text" name="name" placeholder="Your full name" required /></label>
+        <label><span>Email</span><input type="email" name="email" placeholder="you@example.com" required /></label>
+        <label><span>Role of interest</span>
+          <select name="role"><option>Engineering</option><option>Consulting</option><option>Operations</option></select>
+        </label>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <p class="form-note">Demo form — connect to your backend or forms provider.</p>
+      </form>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand small">
+          <img src="assets/logo-dark.svg" alt="Vortys Solution Private Limited logo" class="logo" />
+          <span class="brand-name">Vortys</span>
+        </a>
+        <p class="muted">© <span id="year"></span> Vortys Solution Private Limited. All rights reserved.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="technologies.html">Technologies</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="social">
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Twitter/X">Twitter/X</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
